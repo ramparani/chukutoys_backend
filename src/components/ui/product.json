@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_ui_products",
+  "info": {
+    "displayName": "product"
+  },
+  "options": {},
+  "attributes": {
+    "product_name": {
+      "type": "string"
+    },
+    "product_price": {
+      "type": "string"
+    },
+    "product_category": {
+      "type": "string"
+    },
+    "product_ageCategory": {
+      "type": "enumeration",
+      "enum": [
+        "All",
+        "Age 0–2 Years",
+        "Age 3–5 Years",
+        "Age 6–8 Years",
+        "Age 9–12 Years",
+        "Adults"
+      ]
+    },
+    "product_description": {
+      "type": "text"
+    },
+    "product_images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    }
+  },
+  "config": {}
+}

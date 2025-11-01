@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "highlights",
+  "info": {
+    "singularName": "highlight",
+    "pluralName": "highlights",
+    "displayName": "homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tile1_heading": {
+      "type": "string"
+    },
+    "tile1_description": {
+      "type": "string"
+    },
+    "tile2_heading": {
+      "type": "string"
+    },
+    "tile2_description": {
+      "type": "string"
+    },
+    "tile3_heading": {
+      "type": "string"
+    },
+    "tile3_description": {
+      "type": "string"
+    },
+    "tile4_heading": {
+      "type": "string"
+    },
+    "tile4_description": {
+      "type": "string"
+    }
+  }
+}

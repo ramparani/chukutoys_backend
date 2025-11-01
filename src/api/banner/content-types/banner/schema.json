@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banners",
+  "info": {
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "Banner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner_description": {
+      "type": "string"
+    },
+    "banner_backgroundColor": {
+      "type": "string",
+      "regex": "^#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
+    },
+    "banner_TextColor": {
+      "type": "string",
+      "regex": "^#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
+    }
+  }
+}
