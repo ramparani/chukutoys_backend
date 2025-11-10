@@ -52,6 +52,9 @@
     "product_isAvailable": {
       "type": "boolean",
       "default": true
+    },
+    "product_videos_YoutubeIDs": {
+      "type": "string"
     }
   }
 }
