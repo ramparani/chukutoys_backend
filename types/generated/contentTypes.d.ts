@@ -538,6 +538,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
       Schema.Attribute.DefaultTo<false>;
     product_name: Schema.Attribute.String;
     product_price: Schema.Attribute.String;
+    product_videos_YoutubeIDs: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
